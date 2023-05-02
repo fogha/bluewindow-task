@@ -33,8 +33,10 @@ For the project, I decided to use regular sass instead of a css framework like T
 I implemented the interface using scss because it has a few advantages over regular css. For responsiveness, I used media querries to achieve this.
 I did my best to follow the design and my results are as shown below;
 
-<img src="./src/screenshots/Screen Shot 2023-05-02 at 9.26.34 PM.png">
-<img src="./src/screenshots/Screen Shot 2023-05-02 at 9.26.50 PM.png">
+<div style="display: flex">
+  <img src="./src/screenshots/Screen Shot 2023-05-02 at 9.26.34 PM.png">
+  <img src="./src/screenshots/Screen Shot 2023-05-02 at 9.26.50 PM.png">
+</div>
 <img src="./src/screenshots/Screen Shot 2023-05-02 at 9.27.22 PM.png">
 
 ## Learn More
