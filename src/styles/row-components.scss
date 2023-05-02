@@ -1,0 +1,230 @@
+.logo {
+  position: relative;
+
+  img {
+    width: 146px;
+    height: 146px;
+
+    @media only screen and (max-width: 764px) {
+    width: 104px;
+    height: 106px;
+    }
+
+  }
+
+  .infoIcon {
+    position: absolute;
+    top: 0;
+    right: -12px;
+    height: 27px;
+    width: 27px;
+    color: #6C6C78;
+  }
+
+  @media only screen and (max-width: 764px) {
+    width: 40%;
+  }
+}
+
+.ratings {
+
+  h3 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+    color: #333A40;
+    margin-bottom:8px;
+
+    @media only screen and (max-width: 1180px) {
+      font-size: 19px;
+    }
+
+    @media only screen and (max-width: 764px) {
+      text-align: center;
+      margin-bottom:2px;
+    }
+  }
+
+  p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFC400;
+    margin-top: 11px;
+
+    @media only screen and (max-width: 764px) {
+      text-align: center;
+      margin-top: 3px;
+    }
+  }
+
+  @media only screen and (max-width: 764px) {
+    width: 60%;
+    margin-top: 27px;
+
+    div {
+      text-align: center;
+
+      img {
+        height: 24px;
+        width: 24px;
+      }
+    }
+  }
+
+}
+
+.bonus {
+  position: relative;
+
+  h3 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: -0.23px;
+    color: #333A40;
+    text-transform: uppercase;
+    border-bottom-color: #fff;
+    width: 100%;
+    position: relative;
+    margin-bottom: -16.5px;
+    z-index: 20;
+
+    @media only screen and (max-width: 1180px) {
+      font-size: 20px;
+    }
+
+    @media only screen and (max-width: 764px) {
+      font-size: 23px;
+    }
+  }
+
+  hr {
+    width: 103px;
+    height: 5px;
+    margin: -3px auto;
+    position: sticky;
+    z-index: 10;
+    background: white;
+    border: none;
+  }
+
+  &__main {
+    background: #F0F0F1 0% 0% no-repeat padding-box;
+    border: 2px solid #49A760;
+    border-radius: 5px;
+    padding: 31.46px 31.87px 35.74px 25.13px;
+    text-align: center;
+    font-size: 29px;
+    letter-spacing: -0.29px;
+    color: #333A40;
+
+    @media only screen and (max-width: 1180px) {
+      font-size: 19px;
+      width: 248px;
+      height: 96px;
+      padding-top: 22px;
+    }
+    
+    @media only screen and (max-width: 764px) {
+      font-size: 27px;
+      width: 100%;
+      height: 130px;  
+      display: flex;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 764px) {
+    width: 100%;
+  }
+}
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 13px;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+  color: #333A40;
+
+  &__item {
+    display: flex;
+    gap: 12.5px;
+  }
+
+  @media only screen and (max-width: 1180px) {
+    order: 6;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  @media only screen and (max-width: 764px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 13px;
+    font-size: 14px;
+  }
+}
+
+.button {
+  border-radius: 5px;
+  padding: 24px 48px;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+  display: flex;
+  justify-content: center;    
+  align-items: center;
+}
+
+.btn-green {
+  background: #00AA57;
+  color: #FAFAFA;;
+  height: 50px;
+  min-width: 240px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  @media only screen and (max-width: 1180px) {
+    width: 436px;
+    margin-bottom: 18px;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: flex-end;
+  }
+
+  @media only screen and (max-width: 764px) {
+    width: 100%;
+    margin: 14px 0;
+  }
+}
+
+.tag {
+  color: #fff;
+  background: #FF5762 0% 0% no-repeat padding-box;
+  box-shadow: 2px 2px 0px #00000029;
+  border-radius: 4px;
+  padding: 4px 4px 3px; 
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.bonusCardtTagContainer {
+  left: -10px;
+  top: 28px;
+  position: absolute;
+}
+
