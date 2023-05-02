@@ -8,8 +8,8 @@ export const Rating = () => {
     <div className="ratings">
       <h3>PlayOjo Casino</h3>
       <div>
-        {[...Array(4)].map((star) => (
-          <img src={fullStar} alt="React Logo" />
+        {[...Array(4)].map((star, index) => (
+          <img key={index} src={fullStar} alt="React Logo" />
         ))}
         <img src={halfStar} alt="React Logo" />
       </div>

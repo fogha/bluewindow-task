@@ -1,46 +1,41 @@
 # blueWindow-task
 Simple Card for blue window application assessment
 
-# Getting Started with Create React App
+## Start the Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In order to start the project, you will have to do the follow in the terminal:
 
-## Available Scripts
+First, clone the project using the `git clone` command
 
-In the project directory, you can run:
+Navigate to the project directory and run the following;
 
-### `npm start`
+### `npm install`
+
+Installs necessary dependencies for the app to work.\
+
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Solution Explanation
+My choice of technologies are as follows;
+  #### React library 
+    For the UI
+  #### SASS
+    For Styling
+  #### SASS
+    For Icons
+  #### Chrome Dev Tools
+    For Testing 
 
-### `npm test`
+For the project, I decided to use regular sass instead of a css framework like Tailwind or Chakra because I wanted to demonstrate my understanding of the basics. I also believe proper mastery of these basics make using any framework easier.
+I implemented the interface using scss because it has a few advantages over regular css. For responsiveness, I used media querries to achieve this.
+I did my best to follow the design and my results are as shown below;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img src="./src/screenshots/Screen Shot 2023-05-02 at 9.26.34 PM.png">
+<img src="./src/screenshots/Screen Shot 2023-05-02 at 9.26.50 PM.png">
+<img src="./src/screenshots/Screen Shot 2023-05-02 at 9.27.22 PM.png">
 
 ## Learn More
 

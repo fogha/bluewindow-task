@@ -12,7 +12,7 @@ export const Advantages = () => {
   return (
     <div className="advantages">
       {info.map((item) => (
-        <div className="advantages__item">
+        <div key={item} className="advantages__item">
           <img alt='check' src={Check} />
           <p>{item}</p>
         </div>
